@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 16px/1.5 Arial, Helvetica, sans-serif;
+    color: navy;
+}
+
+.homePage {
+    background-image: url('../images/background-hp.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top center;
+    margin: 30px;
+}
+
+h1,
+h2,
+h3 {
+    font-family: Georgia, serif;
+    line-height: 1.1em;
+    margin: 1.1em 0;
+}
+
+.h1H {
+    text-align: center;
+    color: rgb(6, 30, 161);
+}
+
+.h2H {
+    text-align: center;
+    color: rgb(5, 68, 47);
+}
+
+.h2A1 {
+    color: rgb(4, 128, 52);
+}
+
+.h2A2 {
+    color: rgb(3, 73, 179);
+}
+
+.h3H {
+    text-align: center;
+    color: rgb(92, 139, 3);
+}
+
+div {
+    margin: 0 auto;
+}
+
+a {
+    font-weight: bold
+}
+
+.divA {
+    text-align: left;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.liImg {
+    display: inline-block;
+    height: 200px;
+}
+
+.container {
+    width: 70vw;
+    margin: 0 auto;
+    padding: 10px 10px;
+}
+
+.container-cv {
+    background-color: rgb(238, 238, 238);
+}
+
+.container-me {
+    color: rgb(252, 253, 253);
+}
+
+.pAbout {
+    text-indent: 30px;
+}
+
+.ulPens {
+    margin-left: 30px;
+}
+
+.divLi,
+a {
+    display: inline-block;
+    font-family: 18px 'Times New Roman', Times, serif;
+}
+
+.Img {
+    height: 100px;
+}
