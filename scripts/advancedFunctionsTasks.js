@@ -49,8 +49,8 @@ function customFilter(nums, isPositive) {
 
     for (let i = 0; i < nums.length; i++) {
         const element = nums[i];
-        
-        if (isPositive(element)){
+
+        if (isPositive(element)) {
             resultArr.push(element);
         }
     }
@@ -76,8 +76,17 @@ passes its result to the second function, and returns the result of the second f
 // Define compose function using function declaration
 
 // Define double and increment functions using arrow syntax
+let double = x => x * 2;
+let increment = x => x + 1;
 
+function compose(f1, f2) {
+    // return function (x) {
+    //     let res1 = f1(x);
+    //     return f2(res1);
+    //};
+    return (x)=>f2(f1(x));
+}
 
 // TEST
-// const doubleThenIncrement = compose(double, increment);
-// console.log(doubleThenIncrement(3)); // Expected output: 7
+const doubleThenIncrement = compose(double, increment);
+console.log(doubleThenIncrement(3)); // Expected output: 7
